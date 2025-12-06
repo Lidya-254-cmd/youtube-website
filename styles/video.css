@@ -1,0 +1,58 @@
+p {
+  margin: 0;
+  font-family: roberto, Arial;
+  line-height: 15px;
+}
+
+.box-1 {
+
+  vertical-align: top;
+
+}
+
+
+
+.bottom-div {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+
+.img1 {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.profile-div {
+  margin-top: 10px;
+}
+
+
+.profile-image {
+  width: 50px;
+  border-radius: 25px;
+
+}
+
+.description-div {
+
+  margin-top: 10px;
+}
+
+.video-title {
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.autor,
+.status {
+  margin-bottom: 5px;
+  color: gray;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+}
